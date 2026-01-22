@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://serendaleai-ai-based-blockchain-hero-exploration-com-zr8bmm.teleporthq.app/sitemap.xml

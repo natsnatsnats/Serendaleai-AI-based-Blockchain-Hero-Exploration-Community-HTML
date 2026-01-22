@@ -1,0 +1,868 @@
+.pginahabilidades-container1 {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.pginahabilidades-thq-pginahabilidades-elm {
+  width: 100%;
+  height: 1117px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(0, 0, 0, 1);
+}
+ 
+.pginahabilidades-thq-rectangle1-elm {
+  top: 210px;
+  left: 196px;
+  width: 434px;
+  height: 170px;
+  position: absolute;
+}
+ 
+.pginahabilidades-thq-rectangle9-elm {
+  top: 675px;
+  left: 1098px;
+  width: 434px;
+  height: 353px;
+  opacity: 0.33;
+  position: absolute;
+}
+ 
+.pginahabilidades-thq-rectangle8-elm {
+  top: 675px;
+  left: 1098px;
+  width: 434px;
+  height: 353px;
+  opacity: 0.33;
+  position: absolute;
+  border-color: rgba(194, 194, 194, 1);
+  border-style: solid;
+  border-width: 4px;
+}
+ 
+.pginahabilidades-thq-rectangle7-elm {
+  top: 675px;
+  left: 198px;
+  width: 434px;
+  height: 353px;
+  opacity: 0.33;
+  position: absolute;
+}
+ 
+.pginahabilidades-thq-rectangle6-elm {
+  top: 675px;
+  left: 198px;
+  width: 434px;
+  height: 353px;
+  opacity: 0.33;
+  position: absolute;
+  border-color: rgba(194, 194, 194, 1);
+  border-style: solid;
+  border-width: 4px;
+}
+ 
+.pginahabilidades-thq-rectangle10-elm {
+  top: 398px;
+  left: 1098px;
+  width: 434px;
+  height: 259px;
+  opacity: 0.33;
+  position: absolute;
+}
+ 
+.pginahabilidades-thq-rectangle11-elm {
+  top: 398px;
+  left: 1098px;
+  width: 434px;
+  height: 259px;
+  opacity: 0.33;
+  position: absolute;
+  border-color: rgba(194, 194, 194, 1);
+  border-style: solid;
+  border-width: 4px;
+}
+ 
+.pginahabilidades-thq-rectangle4-elm {
+  top: 398px;
+  left: 196px;
+  width: 434px;
+  height: 259px;
+  opacity: 0.33;
+  position: absolute;
+}
+ 
+.pginahabilidades-thq-rectangle2-elm {
+  top: 210px;
+  left: 647px;
+  width: 434px;
+  height: 170px;
+  position: absolute;
+}
+ 
+.pginahabilidades-thq-rectangle5-elm {
+  top: 398px;
+  left: 196px;
+  width: 434px;
+  height: 259px;
+  opacity: 0.33;
+  position: absolute;
+  border-color: rgba(194, 194, 194, 1);
+  border-style: solid;
+  border-width: 4px;
+}
+ 
+.pginahabilidades-thq-rectangle12-elm {
+  top: 395px;
+  left: 647px;
+  width: 434px;
+  height: 637px;
+  position: absolute;
+}
+ 
+.pginahabilidades-thq-rectangle14-elm {
+  top: 406px;
+  left: 656px;
+  width: 417px;
+  height: 38px;
+  position: absolute;
+  border-color: rgba(194, 194, 194, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+ 
+.pginahabilidades-thq-rectangle15-elm {
+  top: 406px;
+  left: 656px;
+  width: 417px;
+  height: 38px;
+  position: absolute;
+  border-color: rgba(194, 194, 194, 1);
+  border-style: solid;
+  border-width: 2px;
+}
+ 
+.pginahabilidades-thq-rectangle16-elm {
+  top: 224px;
+  left: 347px;
+  width: 269px;
+  height: 80px;
+  position: absolute;
+  border-color: rgba(194, 194, 194, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+ 
+.pginahabilidades-thq-rectangle17-elm {
+  top: 330px;
+  left: 346px;
+  width: 131px;
+  height: 40px;
+  position: absolute;
+  border-color: rgba(194, 194, 194, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+ 
+.pginahabilidades-thq-rectangle18-elm {
+  top: 330px;
+  left: 485px;
+  width: 131px;
+  height: 40px;
+  position: absolute;
+  border-color: rgba(194, 194, 194, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+ 
+.pginahabilidades-thq-rectangle3-elm {
+  top: 210px;
+  left: 1098px;
+  width: 434px;
+  height: 170px;
+  position: absolute;
+}
+ 
+.pginahabilidades-thq-rectangle19-elm {
+  top: 223px;
+  left: 656px;
+  width: 130px;
+  height: 147px;
+  position: absolute;
+  border-color: rgba(194, 194, 194, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+ 
+.pginahabilidades-thq-rectangle20-elm {
+  top: 223px;
+  left: 796px;
+  width: 130px;
+  height: 147px;
+  position: absolute;
+  border-color: rgba(194, 194, 194, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+ 
+.pginahabilidades-thq-rectangle21-elm {
+  top: 223px;
+  left: 936px;
+  width: 130px;
+  height: 147px;
+  position: absolute;
+  border-color: rgba(194, 194, 194, 1);
+  border-style: solid;
+  border-width: 1px;
+}
+ 
+.pginahabilidades-thq-rectangle22-elm {
+  top: 259px;
+  left: 1154px;
+  width: 305px;
+  height: 23px;
+  position: absolute;
+}
+ 
+.pginahabilidades-thq-rectangle24-elm {
+  top: 259px;
+  left: 1459px;
+  width: 53px;
+  height: 23px;
+  position: absolute;
+}
+ 
+.pginahabilidades-thq-rectangle23-elm {
+  top: 335px;
+  left: 1155px;
+  width: 357px;
+  height: 23px;
+  position: absolute;
+}
+ 
+.pginahabilidades-thq-rectangle26-elm {
+  top: 511px;
+  left: 657px;
+  width: 416px;
+  height: 101px;
+  position: absolute;
+  border-color: rgba(252, 79, 246, 1);
+  border-style: solid;
+  border-width: 3px;
+}
+ 
+.pginahabilidades-thq-text-elm10 {
+  top: 406px;
+  left: 664px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-rectangle25-elm {
+  top: 461px;
+  left: 845px;
+  width: 122px;
+  height: 32px;
+  position: absolute;
+}
+ 
+.pginahabilidades-thq-text-elm11 {
+  top: 314px;
+  left: 347px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-text-elm12 {
+  top: 314px;
+  left: 487px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-text-elm13 {
+  top: 228px;
+  left: 354px;
+  color: rgba(255, 255, 255, 1);
+  width: 253px;
+  height: auto;
+  position: absolute;
+  font-size: 80px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-ellipse7-elm {
+  top: 229px;
+  left: 205px;
+  width: 133px;
+  height: 133px;
+  position: absolute;
+}
+ 
+.pginahabilidades-thq-imagem20260121212556440removebgpreview1-elm {
+  top: 261px;
+  left: 234px;
+  width: 65px;
+  height: 65px;
+  position: absolute;
+}
+ 
+.pginahabilidades-thq-text-elm14 {
+  top: 685px;
+  left: 318px;
+  color: rgba(255, 255, 255, 1);
+  width: 186px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-text-elm15 {
+  top: 228px;
+  left: 628px;
+  color: rgba(255, 255, 255, 1);
+  width: 186px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-text-elm16 {
+  top: 228px;
+  left: 771px;
+  color: rgba(255, 255, 255, 1);
+  width: 186px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-text-elm17 {
+  top: 228px;
+  left: 908px;
+  color: rgba(255, 255, 255, 1);
+  width: 186px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-text-elm18 {
+  top: 248px;
+  left: 1108px;
+  color: rgba(255, 255, 255, 1);
+  width: 47px;
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-text-elm19 {
+  top: 216px;
+  left: 1337px;
+  color: rgba(255, 255, 255, 1);
+  width: 177px;
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: right;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-text-elm20 {
+  top: 292px;
+  left: 1337px;
+  color: rgba(255, 255, 255, 1);
+  width: 177px;
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: right;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-text-elm21 {
+  top: 323px;
+  left: 1108px;
+  color: rgba(255, 255, 255, 1);
+  width: 47px;
+  height: auto;
+  position: absolute;
+  font-size: 48px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-d101-elm {
+  top: 736px;
+  left: 1107px;
+  width: 505px;
+  height: 336px;
+  position: absolute;
+}
+ 
+.pginahabilidades-thq-d41-elm {
+  top: 743px;
+  left: 840px;
+  width: 481px;
+  height: 320px;
+  position: absolute;
+}
+ 
+.pginahabilidades-thq-d121-elm {
+  top: 722px;
+  left: 998px;
+  width: 448px;
+  height: 299px;
+  position: absolute;
+}
+ 
+.pginahabilidades-thq-d102-elm {
+  top: 708px;
+  left: 1114px;
+  width: 470px;
+  height: 313px;
+  position: absolute;
+}
+ 
+.pginahabilidades-thq-text-elm22 {
+  top: 461px;
+  left: 688px;
+  color: rgba(255, 255, 255, 1);
+  width: 186px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-rectangle27-elm {
+  top: 996px;
+  left: 904px;
+  width: 175px;
+  height: 32px;
+  position: absolute;
+}
+ 
+.pginahabilidades-thq-text-elm23 {
+  top: 997px;
+  left: 900px;
+  color: rgba(255, 255, 255, 1);
+  width: 186px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-text-elm24 {
+  top: 519px;
+  left: 667px;
+  color: rgba(255, 255, 255, 1);
+  width: 186px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-text-elm25 {
+  top: 559px;
+  left: 667px;
+  color: rgba(255, 255, 255, 1);
+  width: 394px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-text-elm26 {
+  top: 461px;
+  left: 815px;
+  color: rgba(255, 255, 255, 1);
+  width: 186px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-text-elm27 {
+  top: 461px;
+  left: 933px;
+  color: rgba(255, 255, 255, 1);
+  width: 186px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-d201-elm {
+  top: 720px;
+  left: 1267px;
+  width: 453px;
+  height: 302px;
+  position: absolute;
+}
+ 
+.pginahabilidades-thq-text-elm28 {
+  top: 404px;
+  left: 317px;
+  color: rgba(255, 255, 255, 1);
+  width: 186px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-text-elm29 {
+  top: 461px;
+  left: 596px;
+  color: rgba(255, 255, 255, 1);
+  width: 186px;
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-text-elm30 {
+  top: 404px;
+  left: 1224px;
+  color: rgba(255, 255, 255, 1);
+  width: 186px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-text-elm31 {
+  top: 685px;
+  left: 1224px;
+  color: rgba(255, 255, 255, 1);
+  width: 186px;
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-text-elm32 {
+  top: 741px;
+  left: 237px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-text-elm40 {
+  top: 449px;
+  left: 237px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 64px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-text-elm44 {
+  top: 449px;
+  left: 338px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 64px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-text-elm48 {
+  top: 449px;
+  left: 562px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 64px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-text-elm52 {
+  top: 741px;
+  left: 571px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 40px;
+  font-style: Regular;
+  text-align: right;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-text-elm60 {
+  top: 38px;
+  left: 772px;
+  color: rgba(255, 255, 255, 1);
+  width: 186px;
+  height: auto;
+  position: absolute;
+  font-size: 36px;
+  font-style: Regular;
+  text-align: center;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-thq-d81-elm {
+  top: 745px;
+  left: 1386px;
+  width: 354px;
+  height: 300px;
+  position: absolute;
+}
+ 
+.pginahabilidades-thq-text-elm61 {
+  top: 454px;
+  left: 455px;
+  color: rgb(255, 255, 255);
+  height: auto;
+  position: absolute;
+  font-size: 64px;
+  font-style: Regular;
+  text-align: left;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-text31 {
+  color: #ffffff;
+  font-size: 64px;
+  text-align: left;
+  font-family: "Micro 5";
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: none;
+}
+ 
+.pginahabilidades-link {
+  display: contents;
+}
+ 
+.pginahabilidades-container2 {
+  right: 50px;
+  border: 1px solid #ffffff5c;
+  bottom: 30px;
+  display: flex;
+  z-index: 22;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  min-height: auto;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(41, 41, 41, 0.41);
+}
+ 
+.pginahabilidades-icon1 {
+  width: 24px;
+  margin-right: 4px;
+}
+ 
+.pginahabilidades-text34 {
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}

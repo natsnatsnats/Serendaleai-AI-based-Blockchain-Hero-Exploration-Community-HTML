@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>exported project</title>
+    <meta property="og:title" content="exported project" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Micro+5:wght@400&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="primeira-pgina-container1">
+        <div class="primeira-pgina-thq-primeira-pgina-elm">
+          <img
+            alt="Rectangle11202"
+            src="public/rectangle11202-m0he-200h.png"
+            class="primeira-pgina-thq-rectangle1-elm"
+          />
+          <img
+            alt="Rectangle91202"
+            src="public/rectangle91202-0d-500w.png"
+            class="primeira-pgina-thq-rectangle9-elm"
+          />
+          <img
+            alt="Rectangle81202"
+            src="public/rectangle81202-i1g-500w.png"
+            class="primeira-pgina-thq-rectangle8-elm"
+          />
+          <img
+            alt="Rectangle71202"
+            src="public/rectangle71202-s71i-500w.png"
+            class="primeira-pgina-thq-rectangle7-elm"
+          />
+          <img
+            alt="Rectangle61202"
+            src="public/rectangle61202-8sw-500w.png"
+            class="primeira-pgina-thq-rectangle6-elm"
+          />
+          <img
+            alt="Rectangle101202"
+            src="public/rectangle101202-tsci-300h.png"
+            class="primeira-pgina-thq-rectangle10-elm"
+          />
+          <img
+            alt="Rectangle111202"
+            src="public/rectangle111202-opq7-300h.png"
+            class="primeira-pgina-thq-rectangle11-elm"
+          />
+          <img
+            alt="Rectangle41202"
+            src="public/rectangle41202-cwjkv-300h.png"
+            class="primeira-pgina-thq-rectangle4-elm"
+          />
+          <img
+            alt="Rectangle21202"
+            src="public/rectangle21202-2y3q-200h.png"
+            class="primeira-pgina-thq-rectangle2-elm"
+          />
+          <img
+            alt="Rectangle51202"
+            src="public/rectangle51202-7i95-300h.png"
+            class="primeira-pgina-thq-rectangle5-elm"
+          />
+          <img
+            alt="Rectangle121202"
+            src="public/rectangle121202-lmzi-500w.png"
+            class="primeira-pgina-thq-rectangle12-elm"
+          />
+          <img
+            alt="Rectangle141202"
+            src="public/rectangle141202-sqv-200h.png"
+            class="primeira-pgina-thq-rectangle14-elm"
+          />
+          <img
+            alt="Rectangle151202"
+            src="public/rectangle151202-ff35g-500w.png"
+            class="primeira-pgina-thq-rectangle15-elm"
+          />
+          <img
+            alt="Rectangle161202"
+            src="public/rectangle161202-b7gn-200h.png"
+            class="primeira-pgina-thq-rectangle16-elm"
+          />
+          <img
+            alt="Rectangle171203"
+            src="public/rectangle171203-gmti-200h.png"
+            class="primeira-pgina-thq-rectangle17-elm"
+          />
+          <img
+            alt="Rectangle181203"
+            src="public/rectangle181203-axd-200h.png"
+            class="primeira-pgina-thq-rectangle18-elm"
+          />
+          <img
+            alt="Rectangle31202"
+            src="public/rectangle31202-nq3o-200h.png"
+            class="primeira-pgina-thq-rectangle3-elm"
+          />
+          <img
+            alt="Rectangle191203"
+            src="public/rectangle191203-1l8d-200w.png"
+            class="primeira-pgina-thq-rectangle19-elm"
+          />
+          <img
+            alt="Rectangle201203"
+            src="public/rectangle201203-eb4-200w.png"
+            class="primeira-pgina-thq-rectangle20-elm"
+          />
+          <img
+            alt="Rectangle211203"
+            src="public/rectangle211203-nvlu-200w.png"
+            class="primeira-pgina-thq-rectangle21-elm"
+          />
+          <img
+            alt="Rectangle221203"
+            src="public/rectangle221203-amck9-200h.png"
+            class="primeira-pgina-thq-rectangle22-elm"
+          />
+          <img
+            alt="Rectangle241203"
+            src="public/rectangle241203-a9xb.svg"
+            class="primeira-pgina-thq-rectangle24-elm"
+          />
+          <img
+            alt="Rectangle231203"
+            src="public/rectangle231203-koog-200h.png"
+            class="primeira-pgina-thq-rectangle23-elm"
+          />
+          <img
+            alt="Rectangle261203"
+            src="public/rectangle261203-yhzn-200h.png"
+            class="primeira-pgina-thq-rectangle26-elm"
+          />
+          <span class="primeira-pgina-thq-text-elm10">PERSONAGEM</span>
+          <img
+            alt="Rectangle251203"
+            src="public/rectangle251203-2w99-200h.png"
+            class="primeira-pgina-thq-rectangle25-elm"
+          />
+          <span class="primeira-pgina-thq-text-elm11">RAÇA</span>
+          <span class="primeira-pgina-thq-text-elm12">PLAYER</span>
+          <span class="primeira-pgina-thq-text-elm13">NOME</span>
+          <img
+            alt="Ellipse71203"
+            src="public/ellipse71203-84rr-200h.png"
+            class="primeira-pgina-thq-ellipse7-elm"
+          />
+          <img
+            alt="imagem20260121212556440removebgpreview11203"
+            src="public/imagem20260121212556440removebgpreview11203-2slf-200h.png"
+            class="primeira-pgina-thq-imagem20260121212556440removebgpreview1-elm"
+          />
+          <span class="primeira-pgina-thq-text-elm14">PERÍCIAS</span>
+          <span class="primeira-pgina-thq-text-elm15">DEFESA</span>
+          <span class="primeira-pgina-thq-text-elm16">INICIATIVA</span>
+          <span class="primeira-pgina-thq-text-elm17">NATS</span>
+          <span class="primeira-pgina-thq-text-elm18">AÇÕES</span>
+          <span class="primeira-pgina-thq-text-elm19">HP</span>
+          <span class="primeira-pgina-thq-text-elm20">80/90</span>
+          <span class="primeira-pgina-thq-text-elm21">90/90</span>
+          <span class="primeira-pgina-thq-text-elm22">PD</span>
+          <img
+            alt="d1011203"
+            src="public/d1011203-smep-400h.png"
+            class="primeira-pgina-thq-d101-elm"
+          />
+          <img
+            alt="d411203"
+            src="public/d411203-rxap-400h.png"
+            class="primeira-pgina-thq-d41-elm"
+          />
+          <img
+            alt="d1211203"
+            src="public/d1211203-409n-500w.png"
+            class="primeira-pgina-thq-d121-elm"
+          />
+          <img
+            alt="d1021203"
+            src="public/d1021203-pnhl-400h.png"
+            class="primeira-pgina-thq-d102-elm"
+          />
+          <span class="primeira-pgina-thq-text-elm23">INVENTÁRIO</span>
+          <span class="primeira-pgina-thq-text-elm24">ATACAR:</span>
+          <span class="primeira-pgina-thq-text-elm25">
+            VOCÊ GASTA UMA AÇÃO PARA ATACAR UM INIMIGO A SUA ESCOLHA.
+          </span>
+          <img
+            alt="Rectangle291203"
+            src="public/rectangle291203-x4nm-200h.png"
+            class="primeira-pgina-thq-rectangle29-elm"
+          />
+          <span class="primeira-pgina-thq-text-elm26">USAR ITEM:</span>
+          <span class="primeira-pgina-thq-text-elm27">
+            VOCÊ GASTA UMA AÇÃO PARA USAR UM ITEM DO INVENTÁRIO.
+          </span>
+          <img
+            alt="Rectangle281203"
+            src="public/rectangle281203-ik1d-200h.png"
+            class="primeira-pgina-thq-rectangle28-elm"
+          />
+          <span class="primeira-pgina-thq-text-elm28">ACALMAR:</span>
+          <span class="primeira-pgina-thq-text-elm29">
+            VOCÊ GASTA UMA AÇÃO PARA TENTAR ACALMAR UM ALVO.
+          </span>
+          <img
+            alt="Rectangle271203"
+            src="public/rectangle271203-fay4-200h.png"
+            class="primeira-pgina-thq-rectangle27-elm"
+          />
+          <span class="primeira-pgina-thq-text-elm30">DEFENDER:</span>
+          <span class="primeira-pgina-thq-text-elm31">
+            VOCÊ GASTA UMA AÇÃO PARA SE DEFENDER REDUZINDO O DANO PELA METADE
+            (NESSA RODADA VOCÊ NÃO PODE ATACAR).
+          </span>
+          <span class="primeira-pgina-thq-text-elm32">HABILIDADES</span>
+          <span class="primeira-pgina-thq-text-elm33">DETALHES</span>
+          <img
+            alt="d2011203"
+            src="public/d2011203-un9q-400h.png"
+            class="primeira-pgina-thq-d201-elm"
+          />
+          <img
+            alt="d811203"
+            src="public/d811203-swm5-400w.png"
+            class="primeira-pgina-thq-d81-elm"
+          />
+          <span class="primeira-pgina-thq-text-elm34">ATRIBUTOS</span>
+          <span class="primeira-pgina-thq-text-elm35">AÇÕES</span>
+          <span class="primeira-pgina-thq-text-elm36">ROLAGENS</span>
+          <span class="primeira-pgina-thq-text-elm37">DADOS</span>
+          <span class="primeira-pgina-thq-text-elm38">
+            <span>Combate:</span>
+            <br />
+            <span>CRIME:</span>
+            <br />
+            <span>DIPLOMACIA:</span>
+            <br />
+            <span>EXPLORAÇÃO:</span>
+            <br />
+            <span>INTUIÇÃO:</span>
+            <br />
+            <span>MEDICINA:</span>
+            <br />
+            <span>VONTADE:</span>
+          </span>
+          <span class="primeira-pgina-thq-text-elm46">
+            <span>FOR:</span>
+            <br />
+            <span>AGI:</span>
+            <br />
+            <span>VIG:</span>
+          </span>
+          <span class="primeira-pgina-thq-text-elm50">
+            <span>?</span>
+            <br />
+            <span>?</span>
+            <br />
+            <span>?</span>
+          </span>
+          <span class="primeira-pgina-thq-text-elm54">
+            <span>?</span>
+            <br />
+            <span>?</span>
+            <br />
+            <span>?</span>
+          </span>
+          <span class="primeira-pgina-thq-text-elm55">
+            <span>?</span>
+            <br />
+            <span>?</span>
+            <br />
+            <span>?</span>
+            <br />
+            <span>?</span>
+            <br />
+            <span>?</span>
+            <br />
+            <span>?</span>
+            <br />
+            <span>?</span>
+          </span>
+          <span class="primeira-pgina-thq-text-elm63">
+            <span>CAR:</span>
+            <br />
+            <span>COR:</span>
+            <br class="primeira-pgina-text34" />
+            <span>MEN</span>
+            <br />
+          </span>
+        </div>
+        <a href="https://play.teleporthq.io/signup" class="primeira-pgina-link">
+          <div
+            aria-label="Sign up to TeleportHQ"
+            class="primeira-pgina-container2"
+          >
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 19 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="primeira-pgina-icon1"
+            >
+              <path
+                d="M9.1017 4.64355H2.17867C0.711684 4.64355 -0.477539 5.79975 -0.477539 7.22599V13.9567C-0.477539 15.3829 0.711684 16.5391 2.17867 16.5391H9.1017C10.5687 16.5391 11.7579 15.3829 11.7579 13.9567V7.22599C11.7579 5.79975 10.5687 4.64355 9.1017 4.64355Z"
+                fill="#B23ADE"
+              ></path>
+              <path
+                d="M10.9733 12.7878C14.4208 12.7878 17.2156 10.0706 17.2156 6.71886C17.2156 3.3671 14.4208 0.649963 10.9733 0.649963C7.52573 0.649963 4.73096 3.3671 4.73096 6.71886C4.73096 10.0706 7.52573 12.7878 10.9733 12.7878Z"
+                fill="#FF5C5C"
+              ></path>
+              <path
+                d="M17.7373 13.3654C19.1497 14.1588 19.1497 15.4634 17.7373 16.2493L10.0865 20.5387C8.67402 21.332 7.51855 20.6836 7.51855 19.0968V10.5141C7.51855 8.92916 8.67402 8.2807 10.0865 9.07221L17.7373 13.3654Z"
+                fill="#2874DE"
+              ></path>
+            </svg>
+            <span class="primeira-pgina-text37">Built in TeleportHQ</span>
+          </div>
+        </a>
+      </div>
+      <link
+        rel="canonical"
+        href="https://serendaleai-ai-based-blockchain-hero-exploration-com-zr8bmm.teleporthq.app/"
+      />
+    </div>
+  </body>
+</html>
